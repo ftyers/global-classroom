@@ -41,4 +41,11 @@ Kop ı̀ ŋ̀kɛk ɓɔn.	Kôp i ñkek bon.
 
 ## Evaluation
 
-Systems will be evaluated by Word Error Rate (WER) and Character Error Rate (CER). 
+Systems will be evaluated by Word Error Rate (WER) and Character Error Rate (CER). You can run the evaluation
+using the script `evaluate.py`:
+
+```bash
+$ python3 evaluate.py data/test.tsv output.tsv 
+CER: 4.456824512534819
+WER: 18.916666666666664
+```
