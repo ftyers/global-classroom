@@ -278,8 +278,8 @@ class CER:
 cer = CER()
 wer = WER()
 
-ref_lines = [i.strip().split('\t')[0] for i in open(sys.argv[1]).readlines()]
-tst_lines = [i.strip().split('\t')[0] for i in open(sys.argv[2]).readlines()]
+ref_lines = [i.strip().split('\t')[1] for i in open(sys.argv[1]).readlines()]
+tst_lines = [i.strip().split('\t')[1] for i in open(sys.argv[2]).readlines()]
 
 res = cer.evaluate(ref_lines, tst_lines)
 
