@@ -38,3 +38,7 @@ Kop ı̀ ŋ̀kɛk ɓɔn.	Kôp i ñkek bon.
 ```
 
 ## Baseline
+
+## Evaluation
+
+Systems will be evaluated by Word Error Rate (WER) and Character Error Rate (CER). 
