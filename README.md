@@ -10,3 +10,7 @@
 
 Express your interest in participating by completing [this form](https://dudle.inf.tu-dresden.de/iu-hse-global-classroom-project/). The 
 deadline is the 25th January. 
+
+## Submission
+
+Paper submission via [EasyChair](https://easychair.org/conferences/?conf=ling545gc). 
