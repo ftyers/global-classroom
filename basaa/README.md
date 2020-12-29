@@ -27,17 +27,21 @@ The test data will be
 ### Sample
 
 ```
-Ti mɛ̀ ɓɔ̀t yɛ̂m.	Ti me bot yem.
-Mı̀maŋ mi ɓodàa mi ŋâŋnā ni jɔ̀mɔ̂l.	Mimañ mi bôdaa mi ñañna ni jomol.
-Mɛ̀ galɔ̀ ga hâ, ni tɛhɛ.	Me galo ga ha, ni tehe.
-À m̂ɓehha mɛ kwādɛ.	A mbéhha me kwade.
-Mɛ̀ ŋ́wàbal kɔɔ i ɛ̄.	Me ñwabal koo i e.
-À ǹlɛm halà.	A nlem hala.
-Ŋɛm u mɓoo mɛ màcèl.	Ñem u mbôô me matjél.
-Kop ı̀ ŋ̀kɛk ɓɔn.	Kôp i ñkek bon.
+Ti me bot yem.	Ti mɛ̀ ɓɔ̀t yɛ̂m.
+Mimañ mi bôdaa mi ñañna ni jomol.	Mı̀maŋ mi ɓodàa mi ŋâŋnā ni jɔ̀mɔ̂l.
+Me bibagla ni bôt bem, me bibagla bôt bem.	Mɛ̀ biɓāgla ni ɓòt ɓɛ̂m, mɛ̀ biɓāgla ɓôt ɓɛ̂m.
+Me galo ga ha, ni tehe.	Mɛ̀ galɔ̀ ga hâ, ni tɛhɛ.
+A mbéhha me kwade.	À m̂ɓehha mɛ kwādɛ.
+Me ñwabal koo i e.	Mɛ̀ ŋ́wàbal kɔɔ i ɛ̄.
+A nlem hala.	À ǹlɛm halà.
+Ñem u mbôô me matjél.	Ŋɛm u mɓoo mɛ màcèl.
+Kôp i ñkek bon.	Kop ı̀ ŋ̀kɛk ɓɔn.
 ```
 
 ## Baseline
+
+The [baseline system](baseline/) is a simple word-by-word replacement algorithm which takes the most frequent replacement
+in the training data.
 
 ## Evaluation
 
