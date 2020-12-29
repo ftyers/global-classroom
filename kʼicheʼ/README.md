@@ -28,7 +28,7 @@ Kinwaʼik rech na kinyowaj taj	K>in>waʼ>ik r>ech na k>in>yowaj taj
 
 Evaluation is F-score, that is,
 
-![Equation](https://latex.codecogs.com/gif.download?F%20%3D%20%5Cfrac%7B2%7D%7B%5Cfrac%7B1%7D%7BP%7D%20+%20%5Cfrac%7B1%7D%7BR%7D%7D)
+![Equation](https://latex.codecogs.com/gif.latex?F = \frac{2}{\frac{1}{P} + \frac{1}{R}})
 
 Where *P* is Precision and *R* is Recall.
 
