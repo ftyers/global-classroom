@@ -26,3 +26,30 @@ Kinwaʼik rech na kinyowaj taj	K>in>waʼ>ik r>ech na k>in>yowaj taj
 
 ## Evaluation
 
+Evaluation is F-score, that is,
+
+$$F = \frac{2}{\frac{1}{P} + \frac{1}{R}}$$
+
+Where $P$ is Precision and $R$ is Recall.
+
+## Script
+
+The script `evaluate.py` in this repository calculates the precision, recall and F-score for
+a test file. You can use it as follows:
+
+```bash
+$ python3 evaluate.py <ref_file> <tst_file>
+```
+
+The script expects the input to both files to be a two-column tab-separated file where the first column
+is the input and the second column is the output of the segmenter. For example,
+
+```bash
+$ python3 evaluate.py data/test.tsv output.tsv
+10 sentences read, 82 tokens
+P: 0.9573170731707317
+R: 0.9542682926829268
+F: 0.9552845528455286
+```
+
+Where `data/test.tsv` is the test file and `output.tsv` is the output from your system.
