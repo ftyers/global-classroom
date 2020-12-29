@@ -1,7 +1,7 @@
 
 # Tone prediction and orthographic conversion for Basaa
 
-Basaa (ISO-639-3: `bas`) is a Bantu language spoken in Cameroon. It is a tonal language. The language has several orthographies, two are "missionary" orthographies and another is an orthography supported by the Academy of Languages of Cameroon.
+Basaa (*Ɓàsàa*; ISO-639-3: `bas`) is a Bantu language spoken in Cameroon. It is a tonal language. The language has several orthographies, two are "missionary" orthographies and another is [an orthography](https://en.wikipedia.org/wiki/General_Alphabet_of_Cameroon_Languages) supported by the Academy of Languages of Cameroon.
 
 | Academy | Missionary (Protestant) | Missionary (Catholic) |
 |---------|-------------------------|-----------------------|
