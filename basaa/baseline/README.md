@@ -7,7 +7,7 @@ Train the system using:
 
 ```bash
 $ python3 train.py ../data/train.tsv model.tsv 
-Stored 18173 words
+Stored 14596 words
 ```
 
 And apply it to the development data by doing:
@@ -20,6 +20,6 @@ You can then evaluate using the supplied evaluation script:
 
 ```bash
 $ python3 ../evaluate.py ../data/dev.tsv output.tsv 
-CER: 35.72372449801786
-WER: 82.98840314577815
+CER: 24.810648789763754
+WER: 75.74050238166201
 ```
