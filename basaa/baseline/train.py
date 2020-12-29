@@ -6,7 +6,7 @@ dico = {}
 
 for line in t:
 	row = line.strip().split('\t')
-	for (aglcw, mpw) in zip(row[0].split(' '), row[1].split(' ')):	
+	for (mpw, aglcw) in zip(row[0].split(' '), row[1].split(' ')):	
 		if mpw not in dico:
 			dico[mpw] = {}
 		if aglcw not in dico[mpw]:
