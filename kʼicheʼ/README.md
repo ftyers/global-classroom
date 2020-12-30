@@ -8,8 +8,8 @@ Kʼicheʼ (ISO-639-3: `quc`) is a Mayan language spoken mainly in Guatemala.
 
 ## Data
 
-In the `data/` subdirectory you will find a training set. There is no development set, so you should
-use cross-validation to set the hyperparameters of your model.
+In the `data/` subdirectory you will find a training set. The development set is very small, so 
+for setting hyperparameters of your model you should probably use cross-validation.
 
 ### Sample
 
@@ -23,6 +23,9 @@ Kinwaʼik rech na kinyowaj taj	K>in>waʼ>ik r>ech na k>in>yowaj taj
 ```
 
 ## Baseline
+
+The [baseline system](baseline/) is a simple weighted finite-state transducer which tries to maximise the 
+frequency of sets of morphemes per token.
 
 ## Evaluation
 

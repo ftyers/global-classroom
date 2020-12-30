@@ -13,5 +13,9 @@ for line in sys.stdin.readlines():
 		for seg in segs:
 			max_seg = seg
 			break
-		output.append(max_seg[0].strip('>'))
+		if max_seg:
+			output.append(max_seg[0].strip('>'))
+		else:
+			output.append(token)
+			
 	print('%s\t%s' % (row[0], ' '.join(output)))	

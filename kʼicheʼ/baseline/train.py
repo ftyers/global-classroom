@@ -29,3 +29,5 @@ for morph in morphs:
 	print('%d\t%d\t%s\t%s\t%.4f' % (current_state, 0, eps, '>', 1.0/morphs[morph]), file=mf)
 
 print('%d\t%.4f' % (0, 0.0), file=mf)
+
+print('%d morphemes written' % len(morphs.keys()), file=sys.stderr)
