@@ -21,6 +21,16 @@ are you speaking so loudly, they are looking at you"
 
 As you can see, much of the information that is expressed with words in English is expressed with morphs in Chukchi.
 
+### Example
+
+![Predictive text on Android](https://i.stack.imgur.com/Txliv.png)
+
+In many mobile telephone keyboards, such as those available on Android and iPhone, the predictions appear at the top
+of the keyboard. There are usually three predictions.
+
+As such, you may count any prediction in the top three as a correct prediction if it corresponds to the next word
+in the reference.
+
 ## Data
 
 In the `data/` subdirectory you will find a training set and a development set. 
@@ -67,4 +77,5 @@ Clicks/Character: 0.6369047619047619
 
 That is 3.82 clicks per token out of a minimum of 1.0 click per token and 0.63 clicks per character
 out of a maximum of 1.0 click per character.
+
 
