@@ -56,7 +56,15 @@ characters:
 2
 ```
 
-Your program should support input in both composed and precomposed characters.
+Your program should support input in both composed and precomposed characters. 
+
+A useful program for working with Unicode data is [Unidump](https://github.com/Codepoints/unidump),
+
+```bash
+$ echo "Ti mɛ̀ ɓɔ̀t yɛ̂m." | unidump 
+      0    0054 0069 0020 006D 025B 0300 0020 0253 0254 0300 0074 0020 0079 025B 0302 006D    Ti.mɛ̀.ɓɔ̀t.yɛ̂m
+     23    002E 000A                                                                          ..
+```
 
 ## Baseline
 
