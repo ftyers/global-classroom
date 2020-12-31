@@ -33,7 +33,7 @@ while ref_line and tst_line:
 			o += i
 		print(o, file=sys.stderr)
 			
-	bas_tokens = [c for c in ref_row[0].replace(' ', '_')]
+	bas_tokens = [c for c in ref_row[0].replace(' ', '_') + '_']
 	ref_tokens = ref_row[0].replace(' ', ' _ ').split(' ') + ['_']
 	tst_tokens = tst_row[1].split(' ')
 
