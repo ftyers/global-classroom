@@ -36,9 +36,34 @@ In the `data/` subdirectory you will find a training set and a development set.
 
 ## Baseline
 
-The baseline is a simple model that predicts the next word based on the previous word.
+The [baseline system](baseline/) is a simple model that predicts the next word based on the previous word.
 
 ## Evaluation
 
 The idea of the project is to reduce the number of clicks a user has to make to a minimum, so the evaluation
-will be the average number of clicks per sentence on the test corpus. 
+will be on clicks per token and clicks per character, with clicks per character being a lower bound on the 
+performance (the user types out every character manually) and clicks per token being the upper bound (the
+system correctly predicts every word in the sentence).
+
+For example, given the output:
+
+| Reference | Prediction |
+|амаравкэваратэн таа’койӈын | а м а р а в к э в а р а т э н \_ таа’койӈын \_|
+|йъйыӄык ныӄэԓпэратӄэн вытэчгытрыӄэргыԓьын йыӈэттэт | й ъ й ы ӄ ы к \_ ныӄэԓпэратӄэн \_ вытэчгытрыӄэргыԓьын \_ йыӈэттэт \_|
+|мыкыӈ нывытрэтӄин чеԓгатвытрыԓьо ынӄорыым вытэчгытрыԓьо | м ы к ы ӈ \_ н ы в ы т р э т ӄ и н \_ ч е ԓ г а т в ы т р ы ԓ ь о \_ ынӄорыым \_ в ы т э ч г ы т р ы ԓ ь о \_|
+|ынӄорыым ныӄэргавыӈоӄэн нычеԓгъав | ы н ӄ о р ы ы м \_ н ы ӄ э р г а в ы ӈ о ӄ э н \_ нычеԓгъав \_|
+
+The system would score:
+
+```bash
+$ python3 evaluate.py data/test.tsv output.tsv 
+Characters: 168
+Tokens: 28
+Clicks: 107
+Clicks/Token: 3.8214285714285716
+Clicks/Character: 0.6369047619047619
+```
+
+That is 3.82 clicks per token out of a minimum of 1.0 click per token and 0.63 clicks per character
+out of a maximum of 1.0 click per character.
+
