@@ -41,7 +41,7 @@ Kôp i ñkek bon.	Kop ı̀ ŋ̀kɛk ɓɔn.
 ### Encoding
 
 Tones in the Academy orthography are encoded by combining characters in Unicode. Note that 
-you should avoid using precomposed characters. For example,
+you should avoid using precomposed characters in your output. For example,
 
 | Character | Encoding | Precomposed | Encoding |
 |-----------|----------|-------------|----------|
@@ -55,6 +55,8 @@ characters:
 >>> len('ɔ̀')
 2
 ```
+
+Your program should support input in both composed and precomposed characters.
 
 ## Baseline
 
