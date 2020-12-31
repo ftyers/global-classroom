@@ -22,7 +22,7 @@ In the `data/` subdirectory you will find a training set and a development set. 
 | `train.tsv` | 10000 | 113628 |
 | `dev.tsv`   | 1000 |11254 |
 
-The test data will be 
+The test data will be provided towards the end of the course.
 
 ### Sample
 
@@ -36,6 +36,24 @@ Me ñwabal koo i e.	Mɛ̀ ŋ́wàbal kɔɔ i ɛ̄.
 A nlem hala.	À ǹlɛm halà.
 Ñem u mbôô me matjél.	Ŋɛm u mɓoo mɛ màcèl.
 Kôp i ñkek bon.	Kop ı̀ ŋ̀kɛk ɓɔn.
+```
+
+### Encoding
+
+Tones in the Academy orthography are encoded by combining characters in Unicode. Note that 
+you should avoid using precomposed characters. For example,
+
+| Character | Encoding | Precomposed | Encoding |
+|-----------|----------|-------------|----------|
+| ô         | `U+006F U+0302` | ô    | `U+00F4` |
+| ɔ̀         | `U+0254 U+0300` | -- | -- | 
+
+Also bear in mind that in Python, combining characters are by default treated as two separate 
+characters:
+
+```python
+>>> len('ɔ̀')
+2
 ```
 
 ## Baseline
