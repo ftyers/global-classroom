@@ -29,7 +29,7 @@ In many mobile telephone keyboards, such as those available on Android and iPhon
 of the keyboard. There are usually three predictions.
 
 As such, you may count any prediction in the top three as a correct prediction if it corresponds to the next sequence
-of characters in the reference. Both space and click are represented as an underscore `\_`  in the output.
+of characters in the reference. Both space and click are represented as an underscore `_`  in the output.
 
 ## Data
 
