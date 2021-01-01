@@ -5,7 +5,7 @@ Chukchi (*Ԓыгъоравэтԓьэн*; ISO-639-3: `ckt`) is a language spoken 
 ## Task
 
 Next unit prediction is the task of given an input sequence predicting the next element in the sequence. For example
-given the input sequence [to, be, or, not] we would expect the next two elements to be [to, be] respectively. The 
+given the input sequence `[to, be, or, not]` we would expect the next two elements in the sequence to be `[to, be]` respectively. The 
 units of prediction may be words, characters or some other sub-word unit.
 
 In most predictive keyboards, the unit of prediction is the word, however in a language like Chukchi, where words
