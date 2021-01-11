@@ -10,7 +10,7 @@ You can train the system using:
 
 ```bash
 $ python3 train.py ../data/train.tsv model.att
-1539 morphemes written
+1529 morphemes written
 ```
 
 And then use the system by running:
