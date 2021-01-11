@@ -10,7 +10,7 @@ You can train the system using:
 
 ```bash
 $ python3 train.py ../data/train.tsv model.att
-1719 morphemes written
+1539 morphemes written
 ```
 
 And then use the system by running:
@@ -23,8 +23,8 @@ You can use the evaluation script like this:
 
 ```bash
 $ python3 ../evaluate.py ../data/dev.tsv output.tsv 
-10 sentences read, 77 tokens
-P: 0.6406926406926408
-R: 0.6331168831168831
-F: 0.6352092352092351
+25 sentences read, 163 tokens
+P: 0.8410020449897749
+R: 0.8184633362547472
+F: 0.8262489044697636
 ```
