@@ -24,7 +24,7 @@ You can use the evaluation script like this:
 ```bash
 $ python3 ../evaluate.py ../data/dev.tsv output.tsv 
 25 sentences read, 163 tokens
-P: 0.8410020449897749
-R: 0.8184633362547472
-F: 0.8262489044697636
+P: 0.824642126789366
+R: 0.8036371603856266
+F: 0.8108968740870581
 ```
