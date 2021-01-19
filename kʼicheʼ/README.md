@@ -2,9 +2,21 @@
 
 Kʼicheʼ (ISO-639-3: `quc`) is a Mayan language spoken mainly in Guatemala. 
 
-
 ## Task
 
+Kʼicheʼ is an agglutinative language, meaning that words are built up of multiple morphs which express
+inflectional and derivational categories. For example,
+
+| Kʼicheʼ | Segmentation | Gloss | Translation |
+|---------|--------------|-------|-------------|
+| *Xatinwilo* | X-at-inw-il-o | `PERF-O2SG-S1SG-see-SS` | I saw you. |
+| *qatinamit* | qa-tinamit | `P1PL-village` | Our village. |
+| *nutijoxelabʼ* | nu-tijoxel-abʼ | `P1SG-student-PL` | My students. |
+| *Xkunataj* | X-kuna-taj | `PERF-S3SG-cure-PASS` | Was cured. |
+
+Being able to segment these words into their corresponding morphs can be useful for other natural language
+processing tasks, such as predictive text and machine translation. The objective of this task is to produce
+a system which given a sentence in Kʼicheʼ produces the sentence segmented into morphs.
 
 ## Data
 
@@ -12,6 +24,8 @@ In the `data/` subdirectory you will find a training set. The development set is
 for setting hyperparameters of your model you should probably use cross-validation.
 
 ### Sample
+
+Here we use `>` as a delimiter for the morphs.
 
 ```
 Retaʼm uwach jachin xloqʼow ri pas.	R>etaʼm u>wach jachin x>loqʼow ri pas.
