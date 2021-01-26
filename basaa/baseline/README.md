@@ -20,6 +20,6 @@ You can then evaluate using the supplied evaluation script:
 
 ```bash
 $ python3 ../evaluate.py ../data/dev.tsv output.tsv 
-CER: 24.810648789763754
-WER: 75.74050238166201
+CER: 16.54687852515551
+WER: 40.88336922205728
 ```
