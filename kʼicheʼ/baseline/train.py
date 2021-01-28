@@ -5,18 +5,26 @@ eps = '@0@'
 t = open(sys.argv[1]).readlines()
 mf = open(sys.argv[2], 'w+')
 
+# Dictionary of morph → frequency
 morphs = {}
 
+# Ri numam xkamik are taq kʼo jumuchʼ lajuj ujunabʼ .	Ri nu>mam x>kamik are taq kʼo jumuchʼ lajuj u>junabʼ .
 for line in t:
+	# Split line in to columns
 	row = line.strip().split('\t')
 	
+	# For each of the tokens in the second column, e.g. [Ri, nu>mam, ...]
 	for token in row[1].split(' '):
 		token = token.strip('')
+		# For each of the morphs in the token, e.g. [nu, mam]
 		for morph in token.split('>'):
+			# If we haven't seen the morph before add to our list
 			if morph not in morphs:
 				morphs[morph] = 0
+			# Increment its count
 			morphs[morph] += 1
 
+# Here we define a finite-state transducer
 initial_state = 0
 current_state = 0
 for morph in morphs:
