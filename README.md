@@ -23,8 +23,7 @@ deadline is the 25th January.
 
 ## Presentation times
 
-|----------------|--------|-------|-------|------|
-! Date           ! Slot   ! UTC-4 ! UTC+3 ! Team !
+| Date           | Slot   | UTC-4 | UTC+3 | Team |
 |----------------|--------|-------|-------|------|
 | Tu, 27th April | Slot 1 | 15:15 | 22:15 | Lizzy, Emil, Tanya, Evan    |
 | Tu, 27th April | Slot 2 | 15:35 | 22:35 | Daniil, Dasha, Mohammed, Roman    |
