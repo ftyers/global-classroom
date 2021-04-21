@@ -33,7 +33,6 @@ deadline is the 25th January.
 | We, 28th April | Slot 4 | 13:35 | 20:35 | ?    |
 | Th, 29th April | Slot 1 | 15:15 | 22:15 | ?    |
 | Th, 29th April | Slot 2 | 15:35 | 22:35 | Nikita, Nastya, Sasha, Ali    |
-|----------------|--------|-------|-------|------|
 
 ## Submission
 
