@@ -21,6 +21,19 @@ to run and get started with.
 Express your interest in participating by completing [this form](https://dudle.inf.tu-dresden.de/iu-hse-global-classroom-project/). The 
 deadline is the 25th January. 
 
+## Presentation times
+
+! Date           ! Slot   ! UTC-4 ! UTC+3 ! Team !
+!----------------!--------!-------!-------!------!
+| Tu, 27th April | Slot 1 | 15:15 | 22:15 | Lizzy, Emil, Tanya, Evan    |
+| Tu, 27th April | Slot 2 | 15:35 | 22:35 | Daniil, Dasha, Mohammed, Roman    |
+| We, 28th April | Slot 1 | 12:35 | 19:35 | Jacob, Tanya, Molly, Alina    |
+| We, 28th April | Slot 2 | 12:55 | 19:55 | ?    |
+| We, 28th April | Slot 3 | 13:15 | 20:15 | ?    |
+| We, 28th April | Slot 4 | 13:35 | 20:35 | ?    |
+| Th, 29th April | Slot 1 | 15:15 | 22:15 | ?    |
+| Th, 29th April | Slot 2 | 15:35 | 22:35 | Nikita, Nastya, Sasha, Ali    |
+
 ## Submission
 
 Paper submission via [EasyChair](https://easychair.org/conferences/?conf=ling545gc). 
