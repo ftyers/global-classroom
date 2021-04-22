@@ -31,7 +31,7 @@ deadline is the 25th January.
 | We, 28th April | Slot 2 | 12:55 | 19:55 | ?    |
 | We, 28th April | Slot 3 | 13:15 | 20:15 | ?    |
 | We, 28th April | Slot 4 | 13:35 | 20:35 | ?    |
-| Th, 29th April | Slot 1 | 15:15 | 22:15 | ?    |
+| Th, 29th April | Slot 1 | 15:15 | 22:15 | Б3: Sadi, Denis, Brian, Katya   |
 | Th, 29th April | Slot 2 | 15:35 | 22:35 | Ч2: Nikita, Nastya, Sasha, Ali    |
 
 **Unassigned:**
@@ -39,7 +39,6 @@ deadline is the 25th January.
 * Ч3 (Daniil, Liliya, Olga), 
 * К2 (Anna, Dasha, Kesha, Nastya), 
 * Б2 (Brian, Nastya, Ilya), 
-* Б3 (Sadi, Denis, Brian, Katya)
 
 ## Submission
 
